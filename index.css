@@ -1,0 +1,125 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* class */
+
+.favicon
+{
+    height: 50px;
+    position: relative;
+    left:20px;  top: 20px;
+}
+.get-started-button:hover
+{
+    background-color: #f20a15;
+}
+
+.get-started-button {
+    font-size: 1.8vw;
+    display: inline-block;
+    text-align: center;
+    height: 5vw; width: 15vw;
+    background-color: #e3101a;
+    color: white;
+    border: 0;
+}
+
+.gif {
+    height: 20vw;
+    width: auto;
+    border-radius: 100%;
+}
+
+hr {
+    border: 0;
+    height: 9px;
+    background-color: #222222 !important;
+}
+
+.login-button {
+    position: absolute;
+    top: 20px; right: 40px;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    background-color: #E50914;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.search-and-start {
+    font-size: 0;
+    height: 5vw; width: 50vw;
+    position: relative;
+    display: flex;
+    left: -15%;
+}
+
+.search-bar {
+    border: 0;
+    display: inline-block;
+    height: 5vw; width: 35vw;
+    font-size: 1vw;
+}
+
+
+.section-1
+{
+    height: 800px;
+    background: url(./favicon.png) no-repeat center;
+    background-color: #030104; 
+    display: block;
+} 
+
+
+.section-1-mid {
+    height: 40%;
+    width: 40%;
+    text-align: center;
+    left: 30%; right: 35%;
+    top: 40%;
+    position: absolute;
+    font-family: 'Otomanopee One', sans-serif;
+    color: white;
+    font-weight: 540;
+    
+}
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    background-color: #030104;
+    color: white;
+}
+
+.section-2-part-1 {
+    display: inline-block;
+    position: relative;
+    top: 10vw; left: -5vw;
+    font-weight: 550;
+}
+
+.section-2-part-2 {
+    display: inline-block;
+    position: relative;
+    top: 5vw; right: -2vw;
+}
+
+.website-name {
+    position: absolute;
+    top: 20px; left: 70px;
+    background-color: #030104;
+    border-radius: 10px;
+    font-family: 'Otomanopee One', sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px 15px 10px 15px;
+}
+
