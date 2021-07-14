@@ -46,26 +46,6 @@ body {
     background-color: #030104;
 }
 
-.column-1 {
-    position: absolute;
-    top: 2vw; left: 3vw;
-}
-
-
-.column-2 {
-    position: absolute;
-    top: 2vw; left: 18vw;
-}
-
-.column-3 {
-    position: absolute;
-    top: 2vw; left: 34vw;
-}
-
-.column-4 {
-    position: absolute;
-    top: 2vw; left: 51vw;
-}
 
 .favicon
 {
@@ -90,6 +70,36 @@ body {
     color: #757575;
     font-size: 1rem;
 }
+
+.column-1 {
+    position: absolute;
+    top: 2vw; left: 3vw;
+}
+
+
+.column-2 {
+    position: absolute;
+    top: 2vw; left: 18vw;
+}
+
+.column-3 {
+    position: absolute;
+    top: 2vw; left: 34vw;
+}
+
+.column-4 {
+    position: absolute;
+    top: 2vw; left: 51vw;
+}
+
+li {
+    display: block;
+    height: 2.5vw;
+    list-style: none;
+    font-size: 1rem;
+    color: #757575;
+}
+
 
 .get-started-button:hover
 {
@@ -152,16 +162,6 @@ hr {
     margin-top: 5vw;
 }
 
-
-li {
-    display: block;
-    height: 2.5vw;
-    list-style: none;
-    font-size: 1rem;
-    color: #757575;
-}
-
-
 .login-button {
     position: absolute;
     top: 2.4vw; right: 3vw;
@@ -199,12 +199,9 @@ li {
 }
 
 .search-and-start {
-    /* font-size: 0; */
-    /* height: 5vw; width: 50vw; */
     position: relative;
     display: flex;
     left: -15%;
-    /* margin-bottom: 30vw; */
 }
 
 .search-start-bottom {
@@ -215,7 +212,6 @@ li {
     left: 25vw;
     background-color: #030104;
     margin-bottom: 5vw;
-    
 }
 
 .search-bar {
@@ -228,7 +224,7 @@ li {
 
 .section-1
 {
-    height: 800px;
+    height: 65vw;
     background: url(./favicon.png) no-repeat center;
     background-color: #030104; 
     display: block;
@@ -243,7 +239,6 @@ li {
 }
 
 .section-1-mid {
-    /* height: 40%; */
     width: 40vw;
     text-align: center;
     left: 30vw; right: 30vw;
@@ -289,4 +284,3 @@ li {
     color: white;
     font-size: 3vw;
 }
-
