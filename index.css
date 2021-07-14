@@ -224,7 +224,7 @@ hr {
 
 .section-1
 {
-    height: 800px;
+    height: 70vw;
     background: url(./favicon.png) no-repeat center;
     background-color: #030104; 
     display: block;
@@ -233,7 +233,7 @@ hr {
 .section-2 {
     display: flex;
     justify-content: center;
-    height: 500px;
+    height: 35vw;
     background-color: #030104;
     color: white;
 }
