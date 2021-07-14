@@ -197,12 +197,12 @@ hr {
 }
 
 .search-and-start {
-    font-size: 0;
-    height: 5vw; width: 50vw;
+/*     font-size: 0; */
+/*     height: 5vw; width: 50vw; */
     position: relative;
     display: flex;
     left: -15%;
-    margin-bottom: 30vw;
+/*     margin-bottom: 30vw; */
 }
 
 .search-start-bottom {
@@ -240,7 +240,7 @@ hr {
 }
 
 .section-1-mid {
-    height: 40%;
+/*     height: 40%; */
     width: 40%;
     text-align: center;
     left: 30%; right: 35%;
