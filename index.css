@@ -234,7 +234,7 @@ hr {
 .section-2 {
     display: flex;
     justify-content: center;
-    height: 400px;
+    height: 35vw;
     background-color: #030104;
     color: white;
 }
