@@ -46,31 +46,6 @@ body {
     background-color: #030104;
 }
 
-
-.favicon
-{
-    height: 50px;
-    position: relative;
-    left:20px;  top: 20px;
-}
-
-.footer {
-    height: 25vw; width: 100%;
-}
-.footer-items {
-    position: relative;
-    left: 19vw; top: 6vw;
-    height: 12vw; width: 61vw;
-    text-align: left;
-}
-
-.footer-top {
-    position: relative;
-    left: -18.4vw; bottom: -6vw;
-    color: #757575;
-    font-size: 1rem;
-}
-
 .column-1 {
     position: absolute;
     top: 2vw; left: 3vw;
@@ -92,14 +67,29 @@ body {
     top: 2vw; left: 51vw;
 }
 
-li {
-    display: block;
-    height: 2.5vw;
-    list-style: none;
-    font-size: 1rem;
-    color: #757575;
+.favicon
+{
+    height: 3.5vw;
+    position: relative;
+    left:1vw;  top: 2.4vw;
 }
 
+.footer {
+    height: 25vw; width: 100%;
+}
+.footer-items {
+    position: relative;
+    left: 19vw; top: 6vw;
+    height: 12vw; width: 61vw;
+    text-align: left;
+}
+
+.footer-top {
+    position: relative;
+    left: -18.4vw; bottom: -6vw;
+    color: #757575;
+    font-size: 1rem;
+}
 
 .get-started-button:hover
 {
@@ -162,13 +152,25 @@ hr {
     margin-top: 5vw;
 }
 
+
+li {
+    display: block;
+    height: 2.5vw;
+    list-style: none;
+    font-size: 1rem;
+    color: #757575;
+}
+
+
 .login-button {
     position: absolute;
-    top: 30px; right: 40px;
-    padding: 10px 15px 10px 15px;
-    color: white;
+    top: 2.4vw; right: 3vw;
+    height: 2.5vw; width: 6vw;
+    color: white; 
+    padding-top: 0.4vw;
+    text-align: center;
     background-color: #E50914;
-    font-size: 1rem;
+    font-size: 1.3vw;
     border-radius: 5px;
     font-family: sans-serif;
 }
@@ -197,9 +199,12 @@ hr {
 }
 
 .search-and-start {
+    /* font-size: 0; */
+    /* height: 5vw; width: 50vw; */
     position: relative;
     display: flex;
     left: -15%;
+    /* margin-bottom: 30vw; */
 }
 
 .search-start-bottom {
@@ -210,6 +215,7 @@ hr {
     left: 25vw;
     background-color: #030104;
     margin-bottom: 5vw;
+    
 }
 
 .search-bar {
@@ -222,7 +228,7 @@ hr {
 
 .section-1
 {
-    height: 65vw;
+    height: 800px;
     background: url(./favicon.png) no-repeat center;
     background-color: #030104; 
     display: block;
@@ -237,6 +243,7 @@ hr {
 }
 
 .section-1-mid {
+    /* height: 40%; */
     width: 40vw;
     text-align: center;
     left: 30vw; right: 30vw;
@@ -276,11 +283,10 @@ hr {
 
 .website-name {
     position: absolute;
-    top: 20px; left: 70px;
+    top: 2vw; left: 5vw;
     border-radius: 10px;
     font-family: 'Otomanopee One', sans-serif;
     color: white;
-    font-size: 1.5rem;
-    padding: 10px 15px 10px 15px;
+    font-size: 3vw;
 }
 
