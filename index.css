@@ -241,10 +241,10 @@ hr {
 
 .section-1-mid {
 /*     height: 40%; */
-    width: 40%;
+    width: 40vw;
     text-align: center;
-    left: 30%; right: 35%;
-    top: 40%;
+    left: 30vw; right: 30vw;
+    top: 20vw;
     position: absolute;
     font-family: 'Otomanopee One', sans-serif;
     color: white;
