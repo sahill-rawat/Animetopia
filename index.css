@@ -221,12 +221,17 @@ hr {
     font-size: 1vw;
 }
 
+.section-1::before {
+    background: url(./favicon.png) no-repeat center;
+    content: "";
+    position: absolute;
+    height: 100%; width: 100%;
+    z-index: -1;
+}
 
 .section-1
 {
     height: 65vw;
-    background: url(./favicon.png) no-repeat center;
-    background-color: #030104; 
     display: block;
 } 
 
