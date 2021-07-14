@@ -197,12 +197,9 @@ hr {
 }
 
 .search-and-start {
-/*     font-size: 0; */
-/*     height: 5vw; width: 50vw; */
     position: relative;
     display: flex;
     left: -15%;
-/*     margin-bottom: 30vw; */
 }
 
 .search-start-bottom {
@@ -240,11 +237,10 @@ hr {
 }
 
 .section-1-mid {
-/*     height: 40%; */
     width: 40vw;
     text-align: center;
     left: 30vw; right: 30vw;
-    top: 20vw;
+    top: 23vw;
     position: absolute;
     font-family: 'Otomanopee One', sans-serif;
     color: white;
