@@ -34,7 +34,7 @@
 
 .answer-open:hover {
     text-align: left;
-    transition: 1s;
+    transition: height 1s;
     height: 21vw;
     font-size: 1.5vw;
     border: 0;
