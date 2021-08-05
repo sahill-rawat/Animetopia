@@ -27,7 +27,7 @@
     text-align: left;
 }
 
-.answer-open > p { padding: 1vw; }
+.answer-open > p  { padding: 1vw; }
 
 .answer-open:hover {
     text-align: left;
